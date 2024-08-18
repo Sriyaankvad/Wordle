@@ -101,8 +101,10 @@ class Game:
         return " ".join(sorted(string))
 
 
-# game = Game(Wordle("words.txt"))
-# game.play()
+# Classic New York Times Wordle
+game = Game(Wordle("words.txt"))
+game.play()
 
-pokemon = Game(Wordle("pokemon.txt"))
-pokemon.play()
+# Custom Wordle game (Original 151 Pokemon)
+# pokemon = Game(Wordle("pokemon.txt"))
+# pokemon.play()
